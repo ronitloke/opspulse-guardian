@@ -5,7 +5,7 @@ OpsPulse Guardian is an **AI Ops Data Quality Gate + Workflow Copilot**.
 It ingests operational datasets (HRIS / property service requests / hotel bookings), runs **data quality checks** + **anomaly detection**, and (next) will generate structured action recommendations with guardrails.
 
 ## Current Progress
-✅ Module 1: FastAPI app + `/health`  
+✅ Module 1: FastAPI app + `/health`![Module 1 - Health Check](docs/screenshots/module1_swagger_health.png)  
 ✅ Module 2: `/upload` (CSV upload + storage)  
 ✅ Module 3B (HRIS): adapter + checks + anomaly detection + PII masking  
 
